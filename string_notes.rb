@@ -6,4 +6,4 @@ str = " The dog was brown and wasn't really all that friendly "
 # .split
 # Can split all the words in a string into an array.
 
-# str.split(//).size
+# str.split(//).size()

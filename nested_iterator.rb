@@ -1,4 +1,4 @@
-#################### While Loop ###########################
+#################### Nested hashes Loop ###########################
 teams = {
   'Houston Astros': {
     'first base': 'Chris Carter',

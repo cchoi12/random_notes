@@ -1,0 +1,35 @@
+ls - shows all files
+
+ls -a  - shows all files including hidden files
+
+ls -la - shows the files but has it in a list format instead
+
+## Change filename
+mv current_filename new_filename
+
+## You could also change the name and move it to a new directory
+mv current_filename LOCATION_FOLDER/new_filename
+
+## Deleting files
+rm file_name
+
+## Delete folders :< becareful....
+rm -rf directory_name
+
+## Looking at files, or reading content
+cat current_filename
+  -> it will then show you all the content on that file
+
+## What if you want to write things onto another file?
+echo "new content" > current_filename
+
+## :< What if you just want to add something to a file?
+### The >> is a append command, which means to just add to a file.
+echo "my newer content" >> current_filename
+
+## How about copying?
+cp current_filename new_copied_filename
+### Then you can check the content
+cat new_copied_filename
+#### How about copying then moving it to somewhere else?
+cp current_filename NEW_LOCATION/new_copied_filename
